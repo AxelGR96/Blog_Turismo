@@ -1,0 +1,108 @@
+/*----------------------------------------Parte Superior---------------------------------------------------------*/
+.logo {
+  width: 170px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.botones {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.textoBoton {
+  padding-top: 2px;
+}
+
+i {
+  vertical-align: middle !important;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------Contenido---------------------------------------------------------*/
+body {
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.icons {
+  width: 80px;
+}
+
+.imagenes {
+  width: 90%;
+}
+
+.image-card {
+  width: 300px;
+  float: left;
+  margin-right: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.perfil {
+  width: 250px;
+}
+
+.linea {
+  border-bottom: 1px solid black;
+  margin-bottom: 12px;
+}
+
+.texto {
+  margin-left: 10px;
+}
+
+.title {
+  padding-left: 5px;
+}
+
+.color {
+  color: white !important;
+}
+
+.color-linea {
+  border-bottom-color: white !important;
+}
+
+.espacio {
+  margin-bottom: 5px;
+}
+
+.fecha {
+  margin-left: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title {
+    margin-top: 5px;
+  }
+
+  .centro {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+
+  .titulo {
+    margin-right: 100px;
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -32px;
+    margin-bottom: -10px;
+    margin-top: 50px;
+  }
+
+  .botones {
+    width: 40px;
+  }
+
+  i {
+    vertical-align: middle !important;
+  }
+}
